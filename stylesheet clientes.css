@@ -1,0 +1,98 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FF004F;
+
+}
+
+ul.navbar-nav.mr-auto{
+	margin-left: 40%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+	background-color: #FFFFFF!important;
+}
+
+div#carouselExampleFade.carousel.slide.carousel-fade{
+	background-color: #FF004F;
+	margin-top: 154px;
+	width: 500px;
+	height: 1205px;
+	
+
+}
+
+.container-fluid{
+	background-color: #FF004F;
+	height: 1fr;
+	border-top: solid 10px white;
+	padding: 10% 10% 10% 10%;
+	text-align: center;
+}
+
+
+
+.titulo1{
+	color: white;
+	font-size: 4rem;
+	font-weight: 900;
+	margin-bottom: 5%;
+
+}
+
+.divisor{
+	border: solid 1px white;
+
+}
+.titulo2{
+	font-size: 4rem;
+	color: white;
+	font-weight: 900;
+	margin-top: 5%;
+}
+
+a.nav-link{
+	color: white;
+}
+
+a.nav-link.disabled{
+	color: white;
+}
+
+ul.nav.justify-content-center{
+	padding-top: 30px;
+}
+
+@media (max-width: 575px){
+
+	#sectionHome	{
+		background-image: url("HOME MOBILE.png");
+		height: 531px;
+		background-position: center;
+	}
+	.titulo1{
+		font-size: 1.5rem;
+	}
+	.titulo2{
+		font-size: 1.5rem;
+	}
+	h1{
+		text-align: center;
+		margin-bottom: 10%;
+
+	}
+}
+
+@media (min-width: 576px){
+	#sectionHome{
+		background-image: url("HOME.png");
+		height: 700px;
+	}
+	h1{
+		text-align: left;
+		margin-bottom: 20%;
+		margin-left: 40%;
+		font-size: 3rem;
+		font-weight: 600;
+
+	}
+}

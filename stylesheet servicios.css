@@ -1,0 +1,199 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul.navbar-nav.mr-auto{
+	margin-left: 40%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+	background-color: #FFFFFF!important;
+}
+
+.servicioRedesSociales{
+	margin: 154px 10% 30px 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #FF004F;
+}
+
+section p{
+	color: black;
+}
+
+.divisorServicios{
+	background-color: #ECB849; 
+	height: 20px;
+	width: all;
+}
+
+.servicioGoogleAds{
+	margin:30px 10% 30px 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #FF004F;
+}
+
+.servicioEmkt{
+	margin:30px 10% 30px 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #FF004F;
+}
+
+.servicioConsultoria{
+	margin:30px 10% 30px 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #FF004F;
+}
+
+
+
+
+.container-fluid{
+	background-color: #FF004F;
+	height: 1fr;
+	border-top: solid 10px white;
+	padding: 10% 10% 10% 10%;
+	text-align: center;
+}
+
+
+.titulo1{
+	color: white;
+	font-size: 4rem;
+	font-weight: 900;
+	margin-bottom: 5%;
+
+}
+
+.divisor{
+	border: solid 1px white;
+
+}
+.titulo2{
+	font-size: 4rem;
+	color: white;
+	font-weight: 900;
+	margin-top: 5%;
+}
+
+a.nav-link{
+	color: white;
+}
+
+a.nav-link.disabled{
+	color: white;
+}
+
+ul.nav.justify-content-center{
+	padding-top: 30px;
+}
+
+@media (max-width: 575px){
+
+	.titulo1{
+		font-size: 1.5rem;
+	}
+	.titulo2{
+		font-size: 1.5rem;
+	}
+	h1{
+		text-align: center;
+		margin-bottom: 10%;
+
+	}
+}
+
+
+@media (min-width: 576px){
+	
+	h1{
+		text-align: center;
+		font-size: 3rem;
+		font-weight: 600;
+
+	}
+
+	.servicioRedesSocialesGrid{
+	margin-top: 154px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "logo texto" "servicio texto";
+	color: #FF004F;
+	}
+	.logo{
+		grid-area: logo;
+	}
+	.texto{
+		grid-area: texto;
+	}
+	.servicio{
+		grid-area: servicio;
+	}
+	.servicioGoogleAdsGrid{
+	margin:30px 10% 30px 10%;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "texto2 logo2" "texto2 servicio2";
+	color: #FF004F;
+	}
+	.logo2{
+		grid-area: logo2;
+	}
+	.texto2{
+		grid-area: texto2;
+	}
+	.servicio2{
+		grid-area: servicio2;
+	}
+		.servicioEmktGrid{
+	margin:30px 10% 30px 10%;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "logo3 texto3" "servicio3 texto3";
+	color: #FF004F;
+	}
+	.logo3{
+		grid-area: logo3;
+	}
+	.texto3{
+		grid-area: texto3;
+	}
+	.servicio3{
+		grid-area: servicio3;
+	}
+		.servicioConsultoriaGrid{
+	margin:30px 10% 30px 10%;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "texto4 logo4" "texto4 servicio4";
+	color: #FF004F;
+	}
+	.logo4{
+		grid-area: logo4;
+	}
+	.texto4{
+		grid-area: texto4;
+	}
+	.servicio4{
+		grid-area: servicio4;
+	}
+}
