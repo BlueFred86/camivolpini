@@ -88,7 +88,7 @@ ul.nav.justify-content-center{
 
 @media (min-width: 576px){
 	#sectionHome{
-		background-image: url("HOME.png");
+		background-image: url("images/HOME - PC.png");
 		height: 700px;
 	}
 	h1{
